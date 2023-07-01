@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.barraNavegacion{
+    height: 5rem;
+    background-color: rgb(82, 109, 130);
+}
+
+.slider{
+    height: 50rem;
+    background-color: blanchedalmond;
+}
+
+.destacados{
+    height: 50rem;
+    background-color: rgb(251, 210, 150);
+}
+
+.footer{
+    height: 5rem;
+    background-color: rgb(252, 151, 0);
+}
