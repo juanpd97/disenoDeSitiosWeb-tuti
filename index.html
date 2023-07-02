@@ -22,9 +22,9 @@
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body id="inicio">
     <header>
-      <nav class="navBar container-fluid">
+      <nav class="navBar container-fluid fixed-top">
         <!-- uso Dropdown para mostrar las opciones de navegacion(? -->
         <div class="row align-items-center">
           <div class="col col-lg-2">
@@ -39,9 +39,9 @@
                 Menu
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">inicio</a></li>
-                <li><a class="dropdown-item" href="#">Productos</a></li>
-                <li><a class="dropdown-item" href="#">mas info</a></li>
+                <li><a class="dropdown-item" href="#inicio">inicio</a></li>
+                <li><a class="dropdown-item" href="#productos">Productos</a></li>
+                <li><a class="dropdown-item" href="#footer">mas info</a></li>
               </ul>
             </div>
           </div>
@@ -246,15 +246,38 @@
         </div>
       </section>
 
-      <section>
-        <div class="destacados">
-          <h1>articulos destacados</h1>
+      <section id="productos">
+        <div class="container">
+          <h2>Productos destacados</h2>
+          
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+          
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./img/productos/samsung-galaxy-a54-5.jpg" alt="galaxy a 54">
+            </div>
+          </div>
+
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
+    <footer id="footer">
+      <div>
         <h1>redes sociales</h1>
       </div>
     </footer>
