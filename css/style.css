@@ -8,6 +8,14 @@ nav {
   color: azure;
 }
 
+/*
+#putaBArra {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+*/
 .textoBanner {
   background-color: black;
   color: azure;
