@@ -4,20 +4,31 @@ body{
     
 }
 
-//-------------------
+//---------------------------
 
 nav{
     background-color: black;
-    color: azure;    
+    color: azure;  
+    h5{
+        color: #000000;
+    }
+    form{
+        color: black;
+        .row{
+            margin: 10px;
+        }
+    }
 }
 /*
 #putaBArra {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; 
     z-index: 1030;
   }
 */
+
+// --------------------------------
 .textoBanner{
     background-color: black;
     color: azure;
@@ -29,7 +40,7 @@ nav{
     object-fit: cover;
 }
 
-//-------------------
+//--------------------------------
 
 #productos{
 //    margin: 50px;

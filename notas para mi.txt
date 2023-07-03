@@ -1,5 +1,6 @@
 -Cambiar el titulo del documento
 
+-no olvidar la parte de recuperar contraseña
 -ver como hacer para que la barra de menu me siga sin que se bugee el elemento modal(Mi cuenta)
 
 -corregir imagenes banners

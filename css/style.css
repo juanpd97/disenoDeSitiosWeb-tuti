@@ -7,12 +7,21 @@ nav {
   background-color: black;
   color: azure;
 }
+nav h5 {
+  color: #000000;
+}
+nav form {
+  color: black;
+}
+nav form .row {
+  margin: 10px;
+}
 
 /*
 #putaBArra {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; 
     z-index: 1030;
   }
 */
