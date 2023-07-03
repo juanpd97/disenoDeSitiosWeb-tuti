@@ -3,11 +3,6 @@ body {
   background-color: rgb(100, 10, 101);
 }
 
-#footer {
-  height: 5rem;
-  background-color: rgb(252, 151, 0);
-}
-
 nav {
   background-color: black;
   color: azure;
@@ -24,16 +19,35 @@ nav {
   object-fit: cover;
 }
 
-#productos {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 #productos h2 {
   margin: 50px;
 }
 #productos img {
   max-width: 250px;
   max-height: 250px;
+  margin: 15px;
+}
+
+#footer {
+  background-color: #000000;
+  margin-top: 30px;
+  padding: 30px;
+}
+#footer div {
+  margin-bottom: 0px;
+}
+#footer hr {
+  border: none;
+  height: 7px;
+  background-color: #ffffff;
+}
+#footer i {
+  font-size: 23px;
+  color: #ffffff;
+}
+#footer img {
+  max-width: 170px;
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

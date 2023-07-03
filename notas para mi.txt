@@ -1,22 +1,9 @@
 -Cambiar el titulo del documento
 
+-la opcion Mi cuenta esta buggeada
+
 -corregir imagenes banners
 -corregir los textos de los banners
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
