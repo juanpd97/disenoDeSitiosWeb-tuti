@@ -1,3 +1,11 @@
+falta hacer
+-detalle de articulos
+-personalizar boton de bootstrap
+-Un botón o enlace para recuperar contraseña. Al hacer clic en recuperar contraseña debe ocultarse el
+formulario de login y aparecer el formulario para recuperar contraseña en el mismo contenido abierto
+-validaciones en el formulario de registro
+
+-------------------------------------------
 -Cambiar el titulo del documento
 
 -no olvidar la parte de recuperar contraseña
@@ -17,3 +25,8 @@ banner de iphone: https://www.dreamstime.com/vinnytsia-ukraine-september-vector-
 
 
 footer: https://blog.hubspot.es/hubfs/media/02footerhubspot.jpeg
+
+-----------------------------------------------------------------------------------
+bugs (?
+
+- en detallesArticulo.html el carousel de las imagenes del telefono ta medio raro

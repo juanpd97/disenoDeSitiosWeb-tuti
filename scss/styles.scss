@@ -1,11 +1,10 @@
+
 body{
     text-align: center;
     background-color: rgb(100, 10, 101);
     
 }
-
 //---------------------------
-
 nav{
     background-color: black;
     color: azure;  
@@ -27,34 +26,6 @@ nav{
     z-index: 1030;
   }
 */
-
-// --------------------------------
-.textoBanner{
-    background-color: black;
-    color: azure;
-}
-
-.fotosBanner{
-    overflow: hidden;
-    max-height: 500px;
-    object-fit: cover;
-}
-
-//--------------------------------
-
-#productos{
-//    margin: 50px;
-    
-     h2{
-        margin: 50px;
-     }
-
-    img{
-        max-width: 250px;
-        max-height: 250px;
-        margin: 15px;
-    }
-}
 
 //-----------------------------------
 
@@ -85,10 +56,58 @@ nav{
 
 }
 
-  
+
+// -----------------index --------------------------
+
+#main-index{
+    
+// --------------------------------
+.textoBanner{
+    background-color: black;
+    color: azure;
+}
+
+.fotosBanner{
+    overflow: hidden;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+//--------------------------------
+
+#productos{
+//    margin: 50px;
+    
+     h2{
+        margin: 50px;
+     }
+
+    img{
+        max-width: 250px;
+        max-height: 250px;
+        margin: 15px;
+    }
+}
 
 
+}
 
 
+// ---------------- detalles producto ----------
 
+#main-detalles-productos{
+    text-align: center;
+    section{
+        margin: 30px;
+    }
+    
+    .carousel{
+        img{
+        max-width: 350px;
+        }
+    }
+    img{
+        max-width: 150px;
+    }
+}
 

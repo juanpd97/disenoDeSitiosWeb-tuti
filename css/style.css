@@ -25,26 +25,6 @@ nav form .row {
     z-index: 1030;
   }
 */
-.textoBanner {
-  background-color: black;
-  color: azure;
-}
-
-.fotosBanner {
-  overflow: hidden;
-  max-height: 500px;
-  object-fit: cover;
-}
-
-#productos h2 {
-  margin: 50px;
-}
-#productos img {
-  max-width: 250px;
-  max-height: 250px;
-  margin: 15px;
-}
-
 #footer {
   background-color: #000000;
   margin-top: 30px;
@@ -65,6 +45,37 @@ nav form .row {
 #footer img {
   max-width: 170px;
   margin-top: 0;
+}
+
+#main-index .textoBanner {
+  background-color: black;
+  color: azure;
+}
+#main-index .fotosBanner {
+  overflow: hidden;
+  max-height: 500px;
+  object-fit: cover;
+}
+#main-index #productos h2 {
+  margin: 50px;
+}
+#main-index #productos img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 15px;
+}
+
+#main-detalles-productos {
+  text-align: center;
+}
+#main-detalles-productos section {
+  margin: 30px;
+}
+#main-detalles-productos .carousel img {
+  max-width: 350px;
+}
+#main-detalles-productos img {
+  max-width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
