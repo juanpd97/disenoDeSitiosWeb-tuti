@@ -1,3 +1,5 @@
+@import "../bootstrap/scss/bootstrap.scss";
+
 
 body{
     text-align: center;
@@ -17,16 +19,12 @@ nav{
             margin: 10px;
         }
     }
-}
-/*
-#putaBArra {
-    position: fixed;
-    top: 0;
-    width: 100%; 
-    z-index: 1030;
-  }
-*/
-
+    .btn-secondary{
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+        border-color: #ffffff;
+    }
+}   
 //-----------------------------------
 
 #footer{
