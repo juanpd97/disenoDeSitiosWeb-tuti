@@ -11898,6 +11898,9 @@ nav .btn-secondary {
 #footer i {
   font-size: 23px;
   color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 #footer img {
   max-width: 170px;
@@ -11920,6 +11923,10 @@ nav .btn-secondary {
   max-width: 250px;
   max-height: 250px;
   margin: 15px;
+  border-radius: 20px;
+}
+#main-index #productos .btn-primary {
+  background-color: rgba(82, 183, 246, 0.3960784314);
 }
 
 #main-detalles-productos {
@@ -11933,6 +11940,27 @@ nav .btn-secondary {
 }
 #main-detalles-productos img {
   max-width: 150px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 35px;
+}
+#main-detalles-productos .precio h2, #main-detalles-productos .precio .h2 {
+  font-size: 50px;
+}
+#main-detalles-productos .precio p {
+  color: green;
+  font-size: 45px;
+}
+#main-detalles-productos .precio .btn-primary {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: #52b7f6;
+  border-color: #ffffff;
+  padding: 10px;
+  border-radius: 75px;
+}
+#main-detalles-productos .precio .btn-primary i {
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

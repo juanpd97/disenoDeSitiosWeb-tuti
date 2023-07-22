@@ -45,6 +45,9 @@ nav{
         //margin: 0px 10px 0px 10px;
         font-size: 23px;
         color: #ffffff;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     img{
@@ -84,6 +87,10 @@ nav{
         max-width: 250px;
         max-height: 250px;
         margin: 15px;
+        border-radius: 20px;
+    }
+    .btn-primary{
+        background-color: #52b7f665;
     }
 }
 
@@ -94,7 +101,9 @@ nav{
 // ---------------- detalles producto ----------
 
 #main-detalles-productos{
+    
     text-align: center;
+
     section{
         margin: 30px;
     }
@@ -104,8 +113,37 @@ nav{
         max-width: 350px;
         }
     }
+
     img{
         max-width: 150px;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+
+    .precio{
+        
+        h2{
+            font-size: 50px;
+        }
+        p{
+            color: green;
+            font-size: 45px;
+        }
+
+        .btn-primary{
+            
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            background-color: #52b7f6;
+            border-color: #ffffff;
+            padding: 10px;
+            border-radius: 75px;
+            
+            i{
+                margin-right: 5px;
+            }
+        }
     }
 }
 
