@@ -49,3 +49,15 @@ document.addEventListener('DOMContentLoaded', function() {
       formularioRecuperarContrasena.classList.add('d-none');
     });
   });
+
+
+//   ---------- volver a reproducir video ----------
+
+document.addEventListener('DOMContentLoaded', function() {
+    const videoPlayer = document.getElementById('videoBanner');
+
+    videoPlayer.addEventListener('ended', function() {
+      videoPlayer.currentTime = 0; 
+      videoPlayer.play();
+    });
+  });

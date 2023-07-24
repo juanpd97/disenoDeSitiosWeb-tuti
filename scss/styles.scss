@@ -3,7 +3,7 @@
 
 body{
     text-align: center;
-    background-color: rgb(100, 10, 101);
+    background-color: #120907;
     
 }
 //---------------------------
@@ -69,8 +69,9 @@ nav{
     
 // --------------------------------
 .textoBanner{
-    background-color: black;
-    color: azure;
+    background-color: #81a7ffd2;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
 }
 
 .fotosBanner{
@@ -82,20 +83,35 @@ nav{
 //--------------------------------
 
 #productos{
-//    margin: 50px;
-    
-     h2{
-        margin: 50px;
+    // margin: 10px;
+    background-color: #092045;
+    border-radius: 25px;
+    color: #000000;
+    h2{
+        margin: 10px;
+        padding: 10px;
+        background-color: #27488f;
+        color: #fcfcfc;
+        border-radius: 50px;
      }
 
     img{
-        max-width: 250px;
-        max-height: 250px;
-        margin: 15px;
+        max-width: 200px;
+        max-height: 200px;
+        padding: 15px;
         border-radius: 20px;
     }
     .btn-primary{
         background-color: #52b7f665;
+    }
+    .celulares{
+        background-color:#4f76e4;
+    }
+    h3{
+        color: #ffffff;
+        background-color: #27488f;
+        border-radius: 15px;
+        border-style:ridge;
     }
 }
 
@@ -111,6 +127,9 @@ nav{
 
     section{
         margin: 30px;
+        background-color: #4f76e4;
+        border-radius: 25px;
+        max-width: 100%;
     }
     
     .carousel{
@@ -126,6 +145,25 @@ nav{
         border-radius: 35px;
     }
 
+    .producto{
+        color: #fcfcfc;
+        border-radius: 20px;
+        border-color: #ffffff;
+        border-width: 5px;
+    }
+
+    h3{
+        margin-top: 10px;
+        border-radius: 50px;
+        background-color:#fcfcfca4;
+        color: black;
+    }
+    .descripcion{
+        padding: 30px;
+        color: white;
+        border-style: ridge;
+        background-color: #3863d9c7 ;
+    }
     .precio{
         
         h2{
@@ -133,7 +171,10 @@ nav{
         }
         p{
             color: green;
+            background-color: #0000009f;
+            border-radius: 50px;
             font-size: 45px;
+            border-style: dashed;
         }
 
         .btn-primary{
@@ -150,5 +191,11 @@ nav{
             }
         }
     }
+    h4{
+        margin-top: 10px;
+        border-radius: 50px;
+        background-color:#fcfcfca4;
+        color: black;
+        }
 }
 

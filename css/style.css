@@ -11860,7 +11860,7 @@ textarea.form-control-lg {
 }
 body {
   text-align: center;
-  background-color: rgb(100, 10, 101);
+  background-color: #120907;
 }
 
 nav {
@@ -11911,25 +11911,44 @@ nav #formulario-recuperarContrasena {
 }
 
 #main-index .textoBanner {
-  background-color: black;
-  color: azure;
+  background-color: rgba(129, 167, 255, 0.8235294118);
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
 }
 #main-index .fotosBanner {
   overflow: hidden;
   max-height: 500px;
   object-fit: cover;
 }
+#main-index #productos {
+  background-color: #092045;
+  border-radius: 25px;
+  color: #000000;
+}
 #main-index #productos h2, #main-index #productos .h2 {
-  margin: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #27488f;
+  color: #fcfcfc;
+  border-radius: 50px;
 }
 #main-index #productos img {
-  max-width: 250px;
-  max-height: 250px;
-  margin: 15px;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 15px;
   border-radius: 20px;
 }
 #main-index #productos .btn-primary {
   background-color: rgba(82, 183, 246, 0.3960784314);
+}
+#main-index #productos .celulares {
+  background-color: #4f76e4;
+}
+#main-index #productos h3, #main-index #productos .h3 {
+  color: #ffffff;
+  background-color: #27488f;
+  border-radius: 15px;
+  border-style: ridge;
 }
 
 #main-detalles-productos {
@@ -11937,6 +11956,9 @@ nav #formulario-recuperarContrasena {
 }
 #main-detalles-productos section {
   margin: 30px;
+  background-color: #4f76e4;
+  border-radius: 25px;
+  max-width: 100%;
 }
 #main-detalles-productos .carousel img {
   max-width: 350px;
@@ -11947,12 +11969,33 @@ nav #formulario-recuperarContrasena {
   padding: 10px;
   border-radius: 35px;
 }
+#main-detalles-productos .producto {
+  color: #fcfcfc;
+  border-radius: 20px;
+  border-color: #ffffff;
+  border-width: 5px;
+}
+#main-detalles-productos h3, #main-detalles-productos .h3 {
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: rgba(252, 252, 252, 0.6431372549);
+  color: black;
+}
+#main-detalles-productos .descripcion {
+  padding: 30px;
+  color: white;
+  border-style: ridge;
+  background-color: rgba(56, 99, 217, 0.7803921569);
+}
 #main-detalles-productos .precio h2, #main-detalles-productos .precio .h2 {
   font-size: 50px;
 }
 #main-detalles-productos .precio p {
   color: green;
+  background-color: rgba(0, 0, 0, 0.6235294118);
+  border-radius: 50px;
   font-size: 45px;
+  border-style: dashed;
 }
 #main-detalles-productos .precio .btn-primary {
   color: rgb(0, 0, 0);
@@ -11964,6 +12007,12 @@ nav #formulario-recuperarContrasena {
 }
 #main-detalles-productos .precio .btn-primary i {
   margin-right: 5px;
+}
+#main-detalles-productos h4, #main-detalles-productos .h4 {
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: rgba(252, 252, 252, 0.6431372549);
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
