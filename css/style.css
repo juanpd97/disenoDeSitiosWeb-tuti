@@ -11881,6 +11881,9 @@ nav .btn-secondary {
   background-color: #000000;
   border-color: #ffffff;
 }
+nav #formulario-recuperarContrasena {
+  color: #000000;
+}
 
 #footer {
   background-color: #000000;
