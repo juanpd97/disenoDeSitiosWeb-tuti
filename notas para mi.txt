@@ -1,7 +1,7 @@
 falta hacer
 -Un botón o enlace para recuperar contraseña. Al hacer clic en recuperar contraseña debe ocultarse el
 formulario de login y aparecer el formulario para recuperar contraseña en el mismo contenido abierto
--validaciones en el formulario de registro
+
 
 -------------------------------------------
 -Cambiar el titulo del documento

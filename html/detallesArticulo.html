@@ -27,6 +27,7 @@
     />
 
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/js.js"></script>
   </head>
   <body id="inicio">
    
@@ -46,7 +47,7 @@
                 Menu
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="/index.html">inicio</a></li>
+                <li><a class="dropdown-item" href="#inicio">inicio</a></li>
                 <li>
                   <a class="dropdown-item" href="#productos">Productos</a>
                 </li>
@@ -117,7 +118,7 @@
                 <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
                   <!-------------------------- registrar usuario --------------------->
 
-                  <form method="post">
+                  <form id="formulario" method="post" onsubmit="return validarFormulario()">
                    <div class="container">
                       <div class="row">
                           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -167,10 +168,11 @@
 
                       <div class="row">
                           <div class="col-lg-6 col-md-6 col-sm-12">
-                              <label for="fechaNacimiento">Fecha de nacimiento</label>
+                              <label  for="fechaNacimiento">Fecha de nacimiento</label>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-12">
-                              <input type="date" name="fechaNacimiento">
+                            <input required id="fechaNacimiento" type="date" name="fechaNacimiento" data-toggle="tooltip" data-placement="bottom" title="Debes ser mayor de edad para registrarte." data-trigger="manual">
+
                           </div>
                       </div>
 
@@ -208,7 +210,6 @@
                         <br>
                         <input type="submit">
 
-                        <input type="">
                    </div>
                   </form>
                     
@@ -232,7 +233,6 @@
         </div>
       </nav>
     </header>
-
 
 <main id="main-detalles-productos">
 
