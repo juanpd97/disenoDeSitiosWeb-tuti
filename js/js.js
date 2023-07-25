@@ -51,13 +51,19 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
+
 //   ---------- volver a reproducir video ----------
 
 document.addEventListener('DOMContentLoaded', function() {
-    const videoPlayer = document.getElementById('videoBanner');
+  const videoPlayer = document.getElementById('videoBanner');
 
-    videoPlayer.addEventListener('ended', function() {
-      videoPlayer.currentTime = 0; 
-      videoPlayer.play();
-    });
-  });
+  function restartVideo() {
+    videoPlayer.currentTime = 0;
+    videoPlayer.play();
+  }
+
+  videoPlayer.play();
+
+  setInterval(restartVideo, 10000);
+});
+

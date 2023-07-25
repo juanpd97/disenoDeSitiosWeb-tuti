@@ -11975,6 +11975,9 @@ nav #formulario-recuperarContrasena {
   border-color: #ffffff;
   border-width: 5px;
 }
+#main-detalles-productos .producto a {
+  text-decoration: none;
+}
 #main-detalles-productos h3, #main-detalles-productos .h3 {
   margin-top: 10px;
   border-radius: 50px;
